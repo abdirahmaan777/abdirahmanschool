@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-family:Arial;
+    color:white;
+    text-align:center;
+}
+body{
+    padding: min(50px, 7%);
+    background:rgb(13,43,20);
+}
+h1{
+    margin:30px 0px;
+}
+.card{
+    padding:2em;
+    border:1px solid rgb(24, 72, 138);
+    border-radius:10px;
+    background:#3a404f;
+    text-align:center;
+}
+.grid-container{
+    display:grid;
+    border:1px solid rgb(247, 243, 243);
+   grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+   gap:20px;
+   justify-content:center;
+}
